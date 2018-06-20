@@ -1,0 +1,480 @@
+    1  rvmsudo rvm install 2.0.0-p648
+    2  rvm use --create 2.0.0-p648@samurai --default
+    3  rvm gemset install rails -v 4.0.5
+    4  rvmsudo rvm use --create 2.0.0-p648@samurai --default
+    5  rvm use --create 2.0.0-p648@samurai --default
+    6  rvm gemset install rails -v 4.0.5
+    7  sudo rvm gemset install rails -v 4.0.5
+    8  rvmsudo rvm gemset install rails -v 4.0.5
+    9  rvm gemset install rails -v 4.0.5
+   10  rails new demo_app
+   11  gem install bundler
+   12  cd demo_app
+   13  echo "rvm 2.0.0-p648@samurai" > .rvmrc
+   14  rvm rvmrc to .ruby-version
+   15  rvmsudo rvmrc to .ruby-version
+   16  bundle update
+   17  bundle install
+   18  gem install bundler
+   19  sudo gem install bundler
+   20  bundle install
+   21  rvmsudo rvm install 2.0.0-p648
+   22  rvm use --create 2.0.0-p648@samurai --default
+   23  rvm gemset install rails -v 4.0.5
+   24  sudo rvm gemset install rails -v 4.0.5
+   25  rvmsudo rvm gemset install rails -v 4.0.5
+   26  rvm gemset install rails -v 4.0.5
+   27  rails new demo_app
+   28  bundle install
+   29  bundle update
+   30  bundle install
+   31  rails server -b $IP -p $PORT
+   32  history >history.txt
+   33  $ echo "hello, world"
+   34  echo "hello, world"
+   35  config/routes.rb
+   36  cd ../
+   37  cd rails server -b $IP -p $PORT
+   38  rails server -b $IP -p $PORT
+   39  cd demo_app
+   40  rails server -b $IP -p $PORT
+   41  app/
+   42  app/assets
+   43  cd
+   44  cd environment
+   45  app/
+   46  cd demo_app
+   47  app/
+   48  public/
+   49  Gemfile
+   50  cd
+   51  cd environment
+   52  Gemfile
+   53  rails new ken
+   54  rmdir ken
+   55  rm -r ken
+   56  git -v
+   57  $ git -v
+   58  git -v
+   59  git config --list
+   60  ls
+   61  cd demo_app
+   62  ls
+   63  git init
+   64  git add .
+   65  git status
+   66  git commit -m "Initialize repository"
+   67  git log
+   68  cd app
+   69  ls
+   70  ls -l
+   71  ls
+   72  rm app
+   73  rm controllers
+   74  rm -rf controllers
+   75  git status
+   76  git checkout -f
+   77  git status
+   78  rvm
+   79  cd demo_app
+   80  rvm list
+   81  rails server -b $IP -p $PORT
+   82  git --version
+   83  git config --list
+   84  git -v
+   85  cd demo_app
+   86  pwd
+   87  git init
+   88  ls -la
+   89  git add
+   90  git add .
+   91  git status
+   92  mkdir kentaro
+   93  git status
+   94  rmdir kentaro
+   95  git commit -m "Initialize repository"
+   96  git init
+   97  cd test
+   98  test_helper.rb
+   99  git init
+  100  git add .
+  101  cd
+  102  cd environment
+  103  cd demo_app
+  104  git init
+  105  git status
+  106  cd test
+  107  gitstatus
+  108  git add .
+  109  git status
+  110  history
+  111  git commit
+  112  git commit
+  113  git log
+  114  ls -l
+  115  ls
+  116  ls app/controllers_
+  117  ls app?controllers/
+  118  ls app/controllers/
+  119  rm -rf app/controllers/
+  120  ls app/controllers/
+  121  git staturs
+  122  git status
+  123  git checkout
+  124  git checkout -f
+  125  git status
+  126  rails generate -h
+  127  git init
+  128  git add .
+  129  git commit -m "Initial commit"
+  130  rails server -b $IP -p $PORT
+  131  config/routes.rb.
+  132  cd demo_app
+  133  git init
+  134  git add .
+  135  git status
+  136  git add .
+  137  git status
+  138  git add .git
+  139  git status
+  140  ls
+  141  git init
+  142  ls
+  143  cd
+  144  cd envrionment
+  145  cd environment
+  146  ls
+  147  cd demo_app
+  148  rails new .git
+  149  .git
+  150  mkdir .git
+  151  git .addd
+  152  git .add
+  153  git add .
+  154  git status
+  155  git commit -m "Initial commit"
+  156  rails g scaffold Task title:string detail:string
+  157  bundle exec rake db:migrate
+  158  rails s -b $IP -p $PORT
+  159  rails g scaffold Amu cuteness:string schedule:integer
+  160  cd demo_app
+  161  rails g scaffold Amu cute:string schedule:integer
+  162  bundle exec rake db:migrate
+  163  cd demo_app
+  164  rails s -b $IP -p $PORT
+  165  cd demo_app
+  166  rails s -b $IP -p $PORT
+  167  ls
+  168  git add .
+  169  git commit -m "Finish demo_app
+  170  $ git commit -m "Finish demo app"
+  171  git commit -m "Finish demo app"
+  172  rails s -b $IP -p $PORT
+  173  echo "hello, world"
+  174  gem list
+  175  gem upgrade
+  176  rvm gemset list
+  177  rvm list
+  178  ruby -v
+  179  rails -v
+  180  git -v
+  181  git --version
+  182  git config --list
+  183  ls
+  184  git init
+  185  git add .
+  186  git status
+  187  git commit -m "Initialize repository"
+  188  git log
+  189  rm -rf app/controllers/
+  190  ls app/controllers/
+  191  git starus
+  192  git status
+  193  git checkout -f
+  194  rm -rf app/controllers/
+  195  git checkout -f
+  196  cd demo_app
+  197  rails s -b $IP -p $PORT
+  198  cd demo_app
+  199  git unit
+  200  git add .
+  201  gito commit -m "Initial commit"
+  202  git commit -m "Initial commit"
+  203  cd demo_app
+  204  rails g scaffold Name Char:string Detail:string BD:date
+  205  rails s -b $IP -p $PORT
+  206  rails g scaffold title:string name:stirng
+  207  rails s -b $IP -p $PORT
+  208  cd
+  209  cd environment
+  210  cd demo_app
+  211  rails g scaffold title:string name:stirng
+  212  rails s -b $IP -p $PORT
+  213  rails generate scaffold Task title:string name:string
+  214  rails g scaffold Taxi name:string no:integer
+  215  rails s -b $IP -p $PORT
+  216  rails generate scaffold Task title:string detail:string
+  217  rails s -b $IP -p $PORT
+  218  bin/rake db:migrate RAILS_ENV=development
+  219  rails s -b $IP -p $PORT
+  220  git log
+  221  git commit -m "Initial commit"
+  222  git init
+  223  git log
+  224  git commit -m "Initial commit"
+  225  git commit -m "Initial commit2"
+  226  rails s -b $IP -p $PORT
+  227   rails g scaffold Sports name:string date:date how:string
+  228  rails s -b $IP -p $PORT
+  229  bin/rake db:migrate RAILS_ENV=development
+  230  rails s -b $IP -p $PORT
+  231  $ bundle exec rake db:migrate
+  232  ==  CreateTasks: migrating =================================
+  233  -- create_table(:tasks)
+  234     -> 0.0017s
+  235  bundle exec rake db:migrate
+  236  demo_app
+  237  cd demo_app
+  238  rails s -b $IP -p $PORT
+  239  cd demo_app
+  240  git remote add https://github.com/<KentaroName>/demo_app.git
+  241  git remote add origin https://github.com/<KentaroName>/demo_app.git
+  242  git remote add origin https://github.com/<username>/demo_app.git
+  243  git remote add origin https://github.com/KentaroName/demo_app.git
+  244  git push -u origin master
+  245  git checkout -b modify-README
+  246  git branch
+  247  git mv README.rdoc README.md
+  248  git status
+  249  git add .
+  250  git commit-m "Improve the README file"
+  251  git commit -m "Improve the README file"
+  252  git checkout master
+  253  git checkout modify-README
+  254  git checkout master
+  255  git checkout modify-README
+  256  git checkout master
+  257  git merge modify-README
+  258  git branch -d modify-README
+  259  git checkout modify-README
+  260  git push -u origin master
+  261  git mv README.md README.rdoc
+  262  git status
+  263  git push -u origin master
+  264  git checkout -b modify-README
+  265  git branch
+  266  git mv README.rdoc README.md
+  267  git status
+  268  git add .
+  269  git commit -m "Improve the README file"
+  270  git push -u origin master
+  271  git branch -d modify-README
+  272  git checkout master
+  273  git branch -d modify-README
+  274  git push -u origin master
+  275  git -v
+  276  cd demo_app
+  277  git -v
+  278  git --version
+  279  git --help
+  280  git config --list
+  281  git help everyday
+  282  cd environment
+  283  cd
+  284  cd environment
+  285  cd demo_app
+  286  cd
+  287  cd environmnent
+  288  cd environment
+  289  rails new sample_app
+  290  cd sample_app
+  291  ruby -v
+  292  echo "rvm 2.4.1-p111@samurai" > .rvmrc
+  293  rvm rvmrc to .ruby-version
+  294  cd demo_app
+  295  cd
+  296  cd environment
+  297  cd sample_app
+  298  ruby -v
+  299  echo "rvm 2.4.1-p111@samurai" > .rvmrc
+  300  rvm rvmrc to .ruby-version
+  301  bundle install
+  302  rails -v
+  303  cd
+  304  cd environment
+  305  cd sample_app
+  306  rvm
+  307  ruby --version
+  308  rmdir sample_app
+  309  rm -r sample_app
+  310  bundle install
+  311  rvm list
+  312  echo "rvm 2.0.0-p576@samrai" > .rvmrc
+  313  rvm rvmrc to .ruby-version
+  314  echo "rvm2.0.0-p648@samurai" > .rvmrc
+  315  rvm rvmrc to .rbuy-version
+  316  bundle install
+  317  git init
+  318  git add .
+  319  git commit -m "Initial commit"
+  320  git mv README.rdoc README.md
+  321  git commit -am "Improve the README"
+  322  git remote add origin https://github.com/KentaroName/sample_app.git
+  323  git push -u origin master
+  324  ruby -v
+  325  rails -v
+  326  rvm -ls
+  327  rvm -list
+  328  rvm list
+  329  ruby -v
+  330  rails -v
+  331  bundle install
+  332  ruby -v
+  333  rails -v
+  334  bundle install
+  335  rails -v
+  336  ruby -v
+  337  echo "rvm 2.0.0-p648@samurai > .rvmrc
+  338  echo "rvm 2.0.0-p648@samurai" > .rvmrc
+  339  rvm rvmrc to .ruby-version
+  340  bundle install
+  341  rails new sample_app
+  342  cd
+  343  cd environment
+  344  rails new sample_app
+  345  ruby -v
+  346  rails -v
+  347  echo "rvm 2.4.1-p111@samurai > .rvmrc
+  348  echo "rvm 2.4.1-p111@samurai" > .rvmrc
+  349  rvm rvmrc to .ruby-version
+  350  cd sample_app
+  351  ruby -v
+  352  rails -v
+  353  rvm gemeset list
+  354  rvm gemset list
+  355  rvm list
+  356  ruby --version
+  357  rbenv versions
+  358    system
+  359  rbenv versions system 2.0.0-p648
+  360  rvm use 2.0.0
+  361  rvm use 2.0.0-p648
+  362  rvm list
+  363  ruby -v
+  364  rails -v
+  365  rvm gemset list
+  366  echo "rvm 2.0.0-p648@samurai" > .rvmrc
+  367  rvm rvmrc to .ruby-version
+  368  bundle install
+  369  bundle update
+  370  git init
+  371  git add .
+  372  git commit -m "Initial commit"
+  373  bundle install
+  374  bundle update
+  375  bundle install
+  376  echo "rvm 2.0.0-p648@samurai" > .rvmrc
+  377  rvm rvmrc to .ruby-version
+  378  bundle update
+  379  bundle instal
+  380  bundle install
+  381  gem install bundler
+  382  bundle update
+  383  bundle install
+  384  git init
+  385  git add .
+  386  git commit -m "Initial commit"
+  387  git mv README.rdoc README.md
+  388  git commit -am "Improve the README"
+  389  git remote add origin https://github.com/KentaroName/sample?app.git
+  390  git remote add origin https://github.com/KentaroName/sample_add.git
+  391  git push -u origin master
+  392  git remote add origin https://github.com?KentaroName/sample_app.git
+  393  gip
+  394  cd demo_app
+  395  cd
+  396  cd environment demo_app
+  397  cd sample_app
+  398  ruby -v
+  399  ruby -rails
+  400  rails -v
+  401  rvm list
+  402  rvm gemset list
+  403  rvm gemset install rails -v 4.0.5
+  404  echo "rvm 2.0.0-p648@samurai" > .rvmrc
+  405  rvm rvmrc to .ruby-version
+  406  bundle install
+  407  git init
+  408  git add .
+  409  git commit -m "Initial commit"
+  410  git mv README.rdoc README.md
+  411  git commit -am "Improve the README"
+  412  git remote add origin https://github.com/KentaroName/sample_app.git
+  413  git push -u origin master
+  414  rails generate controller StaticPages home help
+  415  rails server -b $IP -p $PORT
+  416  bundle update
+  417  rails server -b $IP -p $PORT
+  418  rails -v
+  419  ruby -v
+  420  rails -v
+  421  cd demo_app
+  422  rails server -b $IP -p $PORT
+  423  cd
+  424  cd environment
+  425  cd demo_app
+  426  rails server -b $IP -p $PORT
+  427  cd
+  428  cd environment
+  429  cd sample_app
+  430  ruby -v
+  431  rails -v
+  432  rvm gemset list
+  433  rvm gemset
+  434  echo "rvm 2.0.0-p648@samurai" > .rvmrc
+  435  rvm rvmrc to .ruby-version
+  436  rm -r sample_app
+  437  cd
+  438  cd environment
+  439  cd demo_app
+  440  rails server -b $IP -p $PORT
+  441  cd
+  442  cd environment
+  443  rails new sample_app
+  444  rails -v
+  445  ruby -v
+  446  rails -v
+  447  cd 
+  448  cd environment
+  449  cd demo_app
+  450  rails -v
+  451  ruby -v
+  452  cd
+  453  rails -v
+  454  cd environment
+  455  rails new sample_app
+  456  local gems
+  457  rvm list
+  458  rvm rails list
+  459  gem -v
+  460  rvm gemset list
+  461  rails -v
+  462  rbenv -v
+  463  rvm rbenv
+  464  ruby -v
+  465  rvmsudo rvm install 2.0.0-p648
+  466  rvm use --create 2.0.0-p648@samurai --default
+  467  rvm gemset install rails -v 4.0.5
+  468  rails -v
+  469  rails new sample_app
+  470  cd sample_app
+  471  rvm list
+  472  rvm gemeset list
+  473  rvm gemset list
+  474  echo "rvm 2.0.0-p648@samurai" > .rvmrc
+  475  rvm rvmrc to .ruby-version
+  476  bundle install
+  477  bundle update
+  478  bundle install
+  479  git init
+  480  history >history.txt
