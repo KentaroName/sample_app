@@ -22,3 +22,6 @@ module SampleApp
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
   end
 end
+#これは少しむずかしい処理になるのでここでは説明しない
+#画像だったり、リソースを度のタイミングで固めてクライアントにわたすか？ということ
+#らしいよ
