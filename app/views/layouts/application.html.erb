@@ -1,47 +1,21 @@
 <!DOCTYPE html>
 <html>
-  
   <head>
     <title><%= full_title(yield(:title)) %></title>
     <%= stylesheet_link_tag "application", media: "all",
-                                      "data-tubolinks-track" => true %>
-    <%= javascript_include_tag "application", "data-tubolinks-track" => true%>
-    <!--"application"と"data-tubolinks-trackとは？？？-->
+                                           "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+        <!--"application"と"data-tubolinks-trackとは？？？-->
     <%= csrf_meta_tags %>
-    <!--[if lt IE 9]>
-    <script src = "http://html5shiv.googlecode.com/svn/trunk/htm15.js"></script>
-    
-    <![endif]-->
+    <%= render 'layouts/shiv' %>
   </head>
-  
   <body>
-    
-    <header class="navbar navbar-fixed-top navbar-inverse">
-      <!--class = "navbar navbar-fixed-top navbar-inverse"
-      を入れる事によりbootstrap3より該当する内容のclassを
-      持ってくる様になる-->
-      
-      <div class="container">
-        
-        
-        <%= link_to "sample app", '#', id: "logo" %>
-
-        <nav>
-          <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to "Home",    '#' %></li>
-            <li><%= link_to "Help",    '#' %></li>
-            <li><%= link_to "Sign in", '#' %></li>
-          </ul>
-        </nav>
-        
-      </div>
-    </header>
+    <%= render 'layouts/header' %>
     
     <div class="container">
-      
       <%= yield %>
-      
+
+    <%=render 'layouts/footer' %>
     </div>
   </body>
-  
 </html>
