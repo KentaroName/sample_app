@@ -1,19 +1,42 @@
-<div class = "center jumbotron">
-<!--トップの大きい塊を表すものが作れる？-->
+<div class="center jumbotron">
+  <h1>Welcome to the Sample App</h1>
 
-<h1>Welcome to the Sample App</h1>
+  <h2>
 
-<h2>
     This is the home page for the
-    <a href = "http://railstutorial.org/">Ruby on Rails Tutorial</a>
+    <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
     sample application.
-</h2>
-    
-<%= link_to "Sin up now!", '#', class:"btn btn-lg btn-primary" %>
-<!--
-このコードはHTMLとして出力されるときには下記のようになる。
-<a href = "#" class = "btn btn-lg btn-primary">Sign up now!</a>
--->
+  
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+  <!--btnボタンの見た目に装飾し、btn-lgでボタンの大きさ
+  btn-primaryでボタンの色を指定している-->
+  <!--<p><a href ="http://yahoo.co.jp">kentaro</a></p>
+  <p>erina</p>
+  <p>amu</p>
+  <p>kentaro</p>
+  <p>erina</p>
+  <p>amu</p>
+    <p>kentaro</p>
+  <p>erina</p>
+  <p>amu</p>
+    <p>kentaro</p>
+  <p>erina</p>
+  <p>amu</p>
+    <p>kentaro</p>
+  <p>erina</p>
+  <p>amu</p>
+    <p>kentaro</p>
+  <p>erina</p>
+  <p>amu</p>
+    <p>kentaro</p>
+  <p>erina</p>
+  <p>amu</p>
+    <p>kentaro</p>
+  <p>erina</p>
+  <p>amu</p>-->
+      
 </div>
 
 <%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>

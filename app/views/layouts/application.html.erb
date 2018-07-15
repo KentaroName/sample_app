@@ -1,53 +1,47 @@
-<!DOCTYPE html>  <!--HTML5を使うための宣言-->
+<!DOCTYPE html>
 <html>
+  
   <head>
     <title><%= full_title(yield(:title)) %></title>
-    <!--レイアウトのタイトル（タイトルタグ）に出力する内容を指定している-->
-    <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= stylesheet_link_tag "application", media: "all",
+                                      "data-tubolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-tubolinks-track" => true%>
+    <!--"application"と"data-tubolinks-trackとは？？？-->
     <%= csrf_meta_tags %>
     <!--[if lt IE 9]>
-    <script src = "http://html5shiv.googlecode.com/svn/trunc/html5.js"></script>
+    <script src = "http://html5shiv.googlecode.com/svn/trunk/htm15.js"></script>
+    
     <![endif]-->
   </head>
-<body>
-  <header class = "navbar navbar-fixed-top navbar-inverse">
-    <!-- ＝以下
-    navbar navbar-fixed-top navbar-inverse 
-    はbootstrap3でこのように使ってくださいね！ということ
+  
+  <body>
     
-    これを指定してあげることでナビゲーションバーがきれいに
-    出るようになる
-    -->
-    <div class = "container">
-    <!--containerというもので
-    実際にコンテンツを置いていく部分というものを
-    bootstrap３の書き方として指定している
-    -->
-      <%= link_to "sample app", 'https://www.yahoo.co.jp', id: "logo" %>
-      <!--
-      %=と書いてあるのがRubyの実際にHTMLとして出力される
-      処理という意味になる
+    <header class="navbar navbar-fixed-top navbar-inverse">
+      <!--class = "navbar navbar-fixed-top navbar-inverse"
+      を入れる事によりbootstrap3より該当する内容のclassを
+      持ってくる様になる-->
       
-      link_toというのがHTMLというところの<a>アンカー
-      リンクを貼るための処理
-      link_to "リンクさせたい文字" "リンク先" "ロゴが指定される"
-      -->
-      <nav><!--html5らしい書き方らしいよ-->
-        <ul class = "nav navbar-nav navbar-right">
-          <!--bootstrap3専用のものである-->
-          <li><%= link_to "Home-Kentaro",'#' %></li>
-          <li><%= link_to "Help-Erina",    '#' %></li>
-          <li><%= link_to "Sign in-Amu", '#' %></li>
-        </ul>
-      </nav>
+      <div class="container">
+        
+        
+        <%= link_to "sample app", '#', id: "logo" %>
+
+        <nav>
+          <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to "Home",    '#' %></li>
+            <li><%= link_to "Help",    '#' %></li>
+            <li><%= link_to "Sign in", '#' %></li>
+          </ul>
+        </nav>
+        
+      </div>
+    </header>
+    
+    <div class="container">
+      
+      <%= yield %>
+      
     </div>
-  </header>
-    <div class = "container">
-    <%= yield %>
-    </div>
-</body>
+  </body>
+  
 </html>
-
-
-<!--次に実際に表示されるhome.html.erbの中身を書き換える-->
