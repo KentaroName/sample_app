@@ -1,4 +1,5 @@
 SampleApp::Application.routes.draw do
+  devise_for :users
   root 'static_pages#home'
   #こいつでHOMEへのRootが出来上がる
   #_header.html.erbにある/homeへのリンクを作成するために
