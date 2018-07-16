@@ -1,7 +1,17 @@
 SampleApp::Application.routes.draw do
-  get "static_pages/home"
-  get "static_pages/help"
-  get "static_pages/about"
+  root 'static_pages#home'
+  #こいつでHOMEへのRootが出来上がる
+  #_header.html.erbにある/homeへのリンクを作成するために
+  #_header内に <%= link_to "sample app", 「root_path」, id: "logo" %>
+  #を作る
+  match '/help',    to: 'static_pages#help',    via: 'get'
+  #こいつでHelpへのRootが出来上がる
+  match '/about',   to: 'static_pages#about',   via: 'get'
+  #こいつでAboutへのRootが出来上がる
+  match '/contact', to: 'static_pages#contact', via: 'get'
+  #match 'contact', to: 'static_pages#contact', via: 'get'
+  #urlが/contactになるようなもの
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
