@@ -1,6 +1,8 @@
 SampleApp::Application.routes.draw do
-  devise_for :users
   root 'static_pages#home'
+  
+  resources :users, only: [:show] #showだけを作成しますよ！
+  devise_for :users
   #こいつでHOMEへのRootが出来上がる
   #_header.html.erbにある/homeへのリンクを作成するために
   #_header内に <%= link_to "sample app", 「root_path」, id: "logo" %>
