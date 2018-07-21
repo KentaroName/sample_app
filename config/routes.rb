@@ -1,11 +1,26 @@
 SampleApp::Application.routes.draw do
-  root 'static_pages#home'
   
-  resources :users, only: [:show] #showだけを作成しますよ
-  devise_for :users
+  devise_for :users, :controllers => {
+    :registrations => "registrations"
+  }
+  resources :users, only: [:show]
+  root  'static_pages#home'
+  
+  
+  #　↓　以下が上記と順番が違っているため、sign_upフォームに入れないらしい！！！！！！！！
+  
+  #root 'static_pages#home'
+  
+  #resources :users, only: [:show] #showだけを作成しますよ
+  
+  #devise_for :users
+  
+  
+  
+  
   #こいつでHOMEへのRootが出来上がる
   #_header.html.erbにある/homeへのリンクを作成するために
-  #_header内に <%= link_to "sample app", 「root_path」, id: "logo" %>
+  #_header内に<%= link_to "Home",    root_path %>を作る。
   #を作る
   match '/help',    to: 'static_pages#help',    via: 'get'
   #こいつでHelpへのRootが出来上がる
