@@ -3,7 +3,7 @@ SampleApp::Application.routes.draw do
   devise_for :users, :controllers => {
     :registrations => "registrations"
   }
-  resources :users, only: [:show, :index]
+  resources :users, only: [:show, :index, :destroy]
   root  'static_pages#home'
   
   
@@ -14,8 +14,6 @@ SampleApp::Application.routes.draw do
   #resources :users, only: [:show] #showだけを作成しますよ
   
   #devise_for :users
-  
-  
   
   
   #こいつでHOMEへのRootが出来上がる
