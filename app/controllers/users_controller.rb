@@ -8,7 +8,7 @@ class UsersController < ApplicationController
 
   def show
       @user = User.find(params[:id])
-      #Showアクション＝ユーザー情報を表示するアクション
+      #Showアクション(メソッド)＝ユーザー情報を表示するアクション
       
       #データを渡すところ
       #show.html.erbの
@@ -25,10 +25,12 @@ class UsersController < ApplicationController
     redirect_to users_url
   end
   
+
+end
+
 private
   
   def admin_user
     redirect_to(root_path) unless current_user.admin?
   end
-  
-end
+

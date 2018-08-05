@@ -5,7 +5,6 @@ gem 'rails', '4.0.5'
 gem 'bootstrap-sass', '3.3.1'
 gem 'sprockets', '2.11.0'
 gem 'devise', '3.4.1'
-
 gem 'faker', '1.1.2'
 
 gem 'will_paginate', '3.0.4'
