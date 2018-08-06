@@ -15,6 +15,7 @@ class UsersController < ApplicationController
       #<%= @user.name %>, <%= @user.email %>
       #を引っ張ってくる！！！！！
       #こいつでShowに示した内容を取り出すことに成功！！！！！！！！
+      @microposts = @user.microposts.paginate(page: params[:page])
       
       
   end
@@ -25,7 +26,6 @@ class UsersController < ApplicationController
     redirect_to users_url
   end
   
-
 end
 
 private
@@ -33,4 +33,3 @@ private
   def admin_user
     redirect_to(root_path) unless current_user.admin?
   end
-
