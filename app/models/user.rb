@@ -14,4 +14,7 @@ class User < ActiveRecord::Base
   # ※ validation length  で調べることが可能ですよ！
   
   
+  def feed #feed ﾒｿｯﾄﾞ
+    Micropost.where("user_id = ?",id)
+  end
 end

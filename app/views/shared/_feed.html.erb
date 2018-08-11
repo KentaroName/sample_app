@@ -1,0 +1,10 @@
+
+#　ｽﾃｰﾀｽﾌｨｰﾄﾞのﾊﾟｰｼｬﾙ →
+<% if @feed_items.any? %>
+    <ol class = "microposts">
+        <%= render partial: 'shared/feed_item', collection: @feed_items %>
+        #ここを入力することでﾌｨｰﾄﾞｱｲﾃﾑから借りてくるよ！
+        #ﾌｨｰﾄﾞｱｲﾃﾑの内容は　→　_feed_item.html.erbにある
+    </ol>
+    <%= will_paginate @feed_items, renderer: BootstrapPagination::Rails %>
+<% end %>
